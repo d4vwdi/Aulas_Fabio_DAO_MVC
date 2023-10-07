@@ -38,14 +38,13 @@ public class NB_Model {
 	//Criação dos atributos presentes na tabela `clientes` no banco de dados
 	private int id;
 	private String cpf;
+	private String nome;
 	private String email;
 	private String endereco;
 	private String cep;
 	private String rg;
-	private Date datanascimento;
+	private String datanascimento;
 	private String senha;
-	
-	//Geração de Getters e Setters
 	public int getId() {
 		return id;
 	}
@@ -57,6 +56,12 @@ public class NB_Model {
 	}
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 	public String getEmail() {
 		return email;
@@ -82,10 +87,10 @@ public class NB_Model {
 	public void setRg(String rg) {
 		this.rg = rg;
 	}
-	public Date getDatanascimento() {
+	public String getDatanascimento() {
 		return datanascimento;
 	}
-	public void setDatanascimento(Date datanascimento) {
+	public void setDatanascimento(String datanascimento) {
 		this.datanascimento = datanascimento;
 	}
 	public String getSenha() {
@@ -94,6 +99,9 @@ public class NB_Model {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+	
+	//Geração de Getters e Setters
+	
 	
 	
 	
