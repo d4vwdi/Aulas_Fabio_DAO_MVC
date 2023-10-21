@@ -178,7 +178,7 @@ public class Nodebounty_View extends JFrame implements ActionListener {
 	}
 
 
-
+//teste
 	
 	public static void main (String[] args) {
 		Nodebounty_View obj_interface = new Nodebounty_View();
