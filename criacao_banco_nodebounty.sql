@@ -231,7 +231,6 @@ END$$
 DELIMITER ;
 
 /*Criando o Procedure para inserir dados na tabela cartao*/
-
 USE `DB_nodebounty`;
 DROP PROCEDURE IF EXISTS `PROC_INSERIR_CARTAO_04`;
 DELIMITER $$
