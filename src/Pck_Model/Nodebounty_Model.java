@@ -1,10 +1,5 @@
 package Pck_Model;
 
-import java.sql.Date;
- 
-
-
-
 public class Nodebounty_Model {
 	//Criação dos atributos presentes na tabela `clientes` no banco de dados
 	private int 	a01_id;
@@ -16,6 +11,8 @@ public class Nodebounty_Model {
 	private String 	a01_rg;
 	private String 	a01_datanascimento;
 	private String 	a01_senha;
+	
+	//Getters e Setters
 	public int getA01_id() {
 		return a01_id;
 	}

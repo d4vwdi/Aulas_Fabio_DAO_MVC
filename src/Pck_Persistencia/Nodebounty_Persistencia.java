@@ -67,6 +67,8 @@ public class Nodebounty_Persistencia {
 		        e.printStackTrace();
 		    }
 		}
+		
+		
 
 
 
